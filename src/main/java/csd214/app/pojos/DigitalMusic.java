@@ -1,16 +1,10 @@
 package csd214.app.pojos;
 
-import csd214.bookstore.entities.DigitalMusicEntity;
-
 import java.util.Objects;
 import java.util.Scanner;
 
-/**
- * DTO for {@link DigitalMusicEntity}
- */
 public class DigitalMusic extends MusicCollection{
     private String link;
-
 
     public DigitalMusic() {
     }

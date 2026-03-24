@@ -1,14 +1,9 @@
 package csd214.app.pojos;
 
-import csd214.bookstore.entities.MusicCollectionEntity;
-
 import java.util.Objects;
 import java.util.Scanner;
 import java.util.UUID;
 
-/**
- * DTO for {@link MusicCollectionEntity}
- */
 public abstract class MusicCollection extends Product {
     private String title;
     private String artist;
